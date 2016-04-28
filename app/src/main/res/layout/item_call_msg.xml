@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/nameBorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/callMsgPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三" />
+
+        <TextView
+            android:id="@+id/callMsgAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="15102309066" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameBorder"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/callMsgType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼入" />
+
+        <TextView
+            android:id="@+id/callMsgDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="2016-04-08" />
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/isCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameBorder"
+        android:layout_alignParentRight="true"
+        android:checked="false" />
+
+</RelativeLayout>

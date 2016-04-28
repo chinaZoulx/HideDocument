@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/titleBorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/smsPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/item_padding"
+            android:text="smsPerson"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/smsAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/smsPerson"
+            android:padding="@dimen/item_padding"
+            android:text="smsAddress"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/smsDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/item_padding"
+            android:text="smsDate"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/smsType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/smsPerson"
+            android:padding="@dimen/item_padding"
+            android:text="smsType"
+            android:textColor="@android:color/black" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/smsBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBorder"
+        android:padding="@dimen/item_padding"
+        android:text="smsBody"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/isCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleBorder"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">隐私</string>
+    <string name="action_settings">设置</string>
+    <string name="sure">确定</string>
+    <string name="is_show">你确定显示吗</string>
+    <string name="is_hide">你确定操作吗</string>
+    <string name="is_sure">你确定吗</string>
+    <string name="already_hide">隐藏的文件</string>
+</resources>
